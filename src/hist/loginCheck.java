@@ -29,6 +29,7 @@ public class loginCheck {
 			rs = stmt.executeQuery(
 					"select id from member where id = "+id+" and password = "+pwd+"");
 			conn.close();
+			//test
 		}
 		catch(Exception e){
 			connect = false;
